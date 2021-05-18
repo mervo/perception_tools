@@ -6,7 +6,6 @@ perception_folder = '/home/user/.config/unity3d/DefaultCompany/tutorial/a37a249f
 
 if __name__ == '__main__':
     print(perception_folder)
-    coco_dataset = convert_perception(perception_folder)
+    coco_dataset_dict = convert_perception(perception_folder)
 
-    print(coco_dataset)
-
+    print(coco_dataset_dict.keys())
